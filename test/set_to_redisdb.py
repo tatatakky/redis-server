@@ -1,9 +1,12 @@
 # -*- coding:utf-8 -*-
 def setter(r):
     import redis
-    #処理
+    for i in range(10):
+        r.set("name" + str(i), str(i) + "kun")
+    result = r.get("name8")
+    print(result)
 
 if __name__ == '__main__':
     from connection_redis import cnct_rds
-    r = cnct_rds()
-    setter(r)
+    redis_server = cnct_rds()
+    setter(redis_server)
