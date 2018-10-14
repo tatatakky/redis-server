@@ -1,6 +1,5 @@
 # -*- coding:utf-8 -*-
 def main(key):
-    import sys
     import redis
     from connection_redis import cnct_rds
     from delete_redis import deleter
