@@ -1,3 +1,2 @@
-def getter(r, key):
+def getter(r, key)
     return r.get(key).decode()
-
