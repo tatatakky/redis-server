@@ -3,4 +3,8 @@ def setter(r, k):
     pass
     #kの値をkeyとし、keyとvalueセットする処理。
     #for i in range(10):
-    #    r.set("name" + str(i), str(i) + "kun")
+    #    name = "name_data_" + str(i)
+    #    r.set(name, str(i) + "kun")
+    #    r.rpush(name, i)
+    #    r.rpush(name, i*100)
+

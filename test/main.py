@@ -7,7 +7,6 @@ def main(key):
     r = cnct_rds()
     #exits_key関数(↓)でkey値が既存の場合、そのvalueが返り値となる。
     value = exists_key(r, key)
-    #setter(r) #テスト用にセット
     #deleter(r) #あるkey、valueが不要になったらそのkeyをdelete
     return value
 
