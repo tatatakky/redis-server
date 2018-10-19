@@ -1,0 +1,9 @@
+{
+    "AAA": {
+        "data": [
+            "redis",
+            "mysql",
+            "postgresl"
+        ]
+    }
+}
