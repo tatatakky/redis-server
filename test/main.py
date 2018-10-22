@@ -2,7 +2,7 @@
 def main(key):
     import redis
     from connection_redis import cnct_rds
-    from delete_redis import deleter
+    #from delete_redis import deleter
     from judge_redis import exists_key
     from api import jsonifying
     li = []
@@ -15,9 +15,6 @@ def main(key):
 
     jsonifying(li)
 
-    return 0
-
 if __name__ == '__main__':
     import sys
-    li = main(sys.argv[1])
-    print(li)
+    main(sys.argv[1])
