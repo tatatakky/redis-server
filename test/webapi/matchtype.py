@@ -1,5 +1,4 @@
 def matchtyper(li):
-    #処理
     import json
     import collections as cl
     data = cl.OrderedDict()
