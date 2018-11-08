@@ -14,8 +14,3 @@ if __name__ == '__main__':
     li = ["Kodai",[165, 60, "male"]]
     result = matchtyper(li)
     print(result)
-
-
-
-
-

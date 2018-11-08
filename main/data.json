@@ -1,9 +1,5 @@
 {
-    "AAA": {
-        "data": [
-            "redis",
-            "mysql",
-            "postgresl"
-        ]
+    "as": {
+        "data": "No Exist the key:as"
     }
 }
