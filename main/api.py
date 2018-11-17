@@ -11,7 +11,8 @@ api = Flask(__name__)
 def get(key_name):
     li = db_handle(key_name)
     if li[1] is None:
-        return make_response(jsonify({'error': 'Not found'}), 404)
+        # return make_response(jsonify({'error': 'Not found'}), 404)
+        abort(404)
     else:
         result = matchtyper(li)
         return make_response(jsonify(result))
